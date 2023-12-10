@@ -1,10 +1,347 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="lib.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/afbb69d24c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="container">
+          <div class="resume__block">
+            <h1 class="contact-info__header">Denys Kolomiiets</h1>
+            <h3 class="contact-info__sub-header">Junior Frontend Developer</h3>
+
+            <div class="contact_info_container fh">
+              <div class="contact-info__block">
+                <a
+                  href="tel:380935393024"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-solid fa-mobile contact-info__item-icon"></i>
+                  </div>
+                  <span>+38(093)539-30-24</span>
+                </a>
+                <a href="" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <i
+                      class="fa-solid fa-location-dot contact-info__item-icon"
+                    ></i>
+                  </div>
+                  <span>Kyiv, Ukraine</span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/denys-kolomiiets-ab596893"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <i
+                      class="fa-brands fa-linkedin contact-info__item-icon"
+                    ></i>
+                  </div>
+                  <span>Denys Kolomiiets</span>
+                </a>
+              </div>
+
+              <div class="contact-info__block contact-info__block--center">
+                <img
+                  class="contact-info__avatar"
+                  src="assets/avatar.jpg"
+                  alt="Avatar"
+                />
+              </div>
+
+              <div class="contact-info__block">
+                <a
+                  href="https://www.facebook.com/kolomietz.d/"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <i
+                      class="fa-brands fa-facebook contact-info__item-icon"
+                    ></i>
+                  </div>
+                  <span>Denys Kolomiiets</span>
+                </a>
+                <a
+                  href="mailto:kolomietzd@gmail.com"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-solid fa-envelope contact-info__item-icon"></i>
+                  </div>
+                  <span>kolomietzd@gmail.com</span>
+                </a>
+                <a
+                  href="https://github.com/DenysKo88"
+                  rel="author"
+                  class="contact-info__item"
+                >
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-brands fa-github contact-info__item-icon"></i>
+                  </div>
+                  <span>DenysKo88</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg
+                  class="intro__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                    24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                    26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                    48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                    64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
+                    32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                    48-48V304c0-26.5-21.5-48-48-48z"
+                  ></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                Hello! My name is Denys, I am a beginner frontend developer. By
+                education, I am a veterinarian, but recently I decided to change
+                my profession. I got basic knowledge on my own (studying
+                specialized sources of information and taking online courses),
+                but I understand that it is necessary to develop further -
+                that's exactly why I'm here. Now I am engaged in the development
+                of my pet projects and freelance orders (landing page and
+                multi-page sites). I want to continue to develop in this field
+                and become a qualified specialist in a powerful company!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">
+                HTML, CSS, JavaScript, React, TypeScript, SASS/SCSS, Redux, Git
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+                <h3 class="experiences__header">Experience</h3>
+                <div class="accordion experiences__company">
+                  <span class="experiences__company-header-durability"
+                    >Since 2022</span
+                  >
+                  <h3 class="accordion-head experiences__company-header-name">
+                    Freelance (self-employed)
+                  </h3>
+                  <div class="accordion-content">
+                    <div class="accordion-inner">
+                      <span class="experiences__company-project-role"
+                        >Frontend Developer</span
+                      >
+                      <p>Development of websites and web applications using:</p>
+                      <ul class="experiences__company-project-responsibilities">
+                        <li>HTML, CSS</li>
+                        <li>JavaScript, TypeScript</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>REST API</li>
+                        <li>Bootstrap, Material UI</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion experiences__company">
+                  <span class="experiences__company-header-durability"
+                    >2018-2022</span
+                  >
+                  <h3 class="accordion-head experiences__company-header-name">
+                    Fauna-service, Kyiv
+                  </h3>
+
+                  <div class="accordion-content">
+                    <div class="accordion-inner">
+                      <span class="experiences__company-project-role"
+                        >Veterinarian</span
+                      >
+                      <p>
+                        Treatment of domestic animals, ultrasound and X-ray
+                        diagnostics
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion experiences__company">
+                  <span class="experiences__company-header-durability"
+                    >2017-2018</span
+                  >
+                  <h3 class="accordion-head experiences__company-header-name">
+                    Vet-House, Tbilisi
+                  </h3>
+
+                  <div class="accordion-content">
+                    <div class="accordion-inner">
+                      <span class="experiences__company-project-role"
+                        >Veterinarian</span
+                      >
+                      <p>
+                        Treatment of domestic animals, ultrasound and X-ray
+                        diagnostics
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion experiences__company">
+                  <span class="experiences__company-header-durability"
+                    >2013-2017</span
+                  >
+                  <h3 class="accordion-head experiences__company-header-name">
+                    Alden-Vet, Kyiv
+                  </h3>
+
+                  <div class="accordion-content">
+                    <div class="accordion-inner">
+                      <span class="experiences__company-project-role"
+                        >Veterinarian</span
+                      >
+                      <p>
+                        Treatment of domestic animals, ultrasound and X-ray
+                        diagnostics
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="additional-info fv">
+                <div class="additional-info fv">
+                  <div class="additional-info__education">
+                    <h3 class="additional-info__education-header">Education</h3>
+                    <div class="additional-info__education-university">
+                      <span
+                        class="additional-info__education-university-durability"
+                        >2023</span
+                      >
+                      <a
+                        href="https://ude.my/UC-25ba1088-4368-4937-8bba-7ef8ceae808d"
+                        class="additional-info__education-university-speciality"
+                      >
+                        JavaScript + React/Redux
+                      </a>
+                      <p class="additional-info__education-university-name">
+                        Udemy
+                      </p>
+                    </div>
+
+                    <div class="additional-info__education-university">
+                      <span
+                        class="additional-info__education-university-durability"
+                        >2023</span
+                      >
+                      <a
+                        href="https://www.sololearn.com/certificates/CT-FIUBGML9"
+                        class="additional-info__education-university-speciality"
+                      >
+                        React + Redux
+                      </a>
+                      <p class="additional-info__education-university-name">
+                        Sololearn
+                      </p>
+                    </div>
+
+                    <div class="additional-info__education-university">
+                      <span
+                        class="additional-info__education-university-durability"
+                        >2022</span
+                      >
+                      <a
+                        href="https://www.udemy.com/certificate/UC-88b7085f-c347-4c60-a45a-509849c2b1ca/"
+                        class="additional-info__education-university-speciality"
+                      >
+                        WEB Developer
+                      </a>
+                      <p class="additional-info__education-university-name">
+                        Udemy
+                      </p>
+                    </div>
+
+                    <div class="additional-info__education-university">
+                      <span
+                        class="additional-info__education-university-durability"
+                        >2005-2013</span
+                      >
+                      <a
+                        href="#"
+                        class="additional-info__education-university-speciality"
+                      >
+                        Veterinary Medicine. Master's degree
+                      </a>
+                      <p class="additional-info__education-university-name">
+                        National University of Life and Environmental Sciences
+                        of Ukraine
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="additional-info__languages">
+                    <h3 class="additional-info__languages-header">Languages</h3>
+                    <p class="additional-info__languages-item">
+                      Ukrainian (native)
+                    </p>
+                    <p class="additional-info__languages-item">
+                      English (Intermediate)
+                    </p>
+                  </div>
+
+                  <div class="additional-info__hobbies">
+                    <h3 class="additional-info__hobbies-header">
+                      Hobbies and interests
+                    </h3>
+                    <p class="additional-info__hobbies-item">
+                      Music (I've been playing bass guitar for over 15 years)
+                    </p>
+                    <p class="additional-info__hobbies-item">
+                      Photography (
+                      <a
+                        href="https://www.instagram.com/kolomietz_photography"
+                        class="additional-info__hobbies-item-icon"
+                      >
+                        <i class="fa-brands fa-instagram"></i>
+                        kolomietz_photography
+                      </a>
+                      )
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/lib.js"></script>
   </body>
 </html>
