@@ -106,9 +106,10 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
-  &:hover {
-    color: var(--icon-color);
-  }
+}
+
+.contact-info__item :hover {
+  color: var(--icon-color);
 }
 
 .contact-info__item:not(:last-child) {
@@ -136,9 +137,10 @@ body {
   border: 3px solid;
   border-color: var(--text-decoration-color);
   transition: all 0.5s ease;
-  &:hover {
-    scale: 2;
-  }
+}
+
+.contact-info__avatar:hover {
+  scale: 2;
 }
 
 /* Intro and skills styles */
@@ -230,10 +232,8 @@ body {
   padding-left: 20px;
 }
 
-.experiences__company-project-responsibilities li {
-  &::marker {
-    color: var(--icon-color);
-  }
+.experiences__company-project-responsibilities li::marker {
+  color: var(--icon-color);
 }
 
 .additional-info {
@@ -271,9 +271,10 @@ body {
   line-height: 27px;
   display: block;
   margin-bottom: 0;
-  &:hover {
-    text-decoration: underline;
-  }
+}
+
+.additional-info__education-university-speciality:hover {
+  text-decoration: underline;
 }
 
 .additional-info__education-university-name {
@@ -300,9 +301,10 @@ body {
 .additional-info__hobbies-item-icon {
   color: var(--icon-color);
   text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
+}
+
+.additional-info__hobbies-item-icon:hover {
+  text-decoration: underline;
 }
 /* Accordion */
 
