@@ -250,6 +250,10 @@ body {
   margin-bottom: 20px;
 }
 
+.additional-info__education-university {
+  margin-bottom: 15px;
+}
+
 .additional-info__education-university-durability {
   color: var(--durability-text-color);
   text-align: left;
@@ -261,6 +265,15 @@ body {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 27px;
+  display: block;
+  margin-bottom: 0;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .additional-info__education-university-name {
